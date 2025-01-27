@@ -45,7 +45,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1 className='text-7xl text-center mt-20'>To List</h1>
+      <h1 className='text-7xl text-center mt-20'>Todo List</h1>
       <form onSubmit={handleAddTodos}>
         <input
           type='text'
